@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/**
+ * This file is part of Hackathon_BuiltInTests for Magento.
+ *
+ * @license MIT
+ * @author Fabian Schmengler <fs@integer-net.de> <@fschmengler>
+ * @category Hackathon
+ * @package Hackathon_BuiltInTests
+ */
+-->
+<config>
+    <modules>
+        <Hackathon_BuiltInTests>
+            <version>0.1.0</version>
+        </Hackathon_BuiltInTests>
+    </modules>
+    <global>
+        <models>
+            <hackathon_builtintests>
+                <class>Hackathon_BuiltInTests_Model</class>
+            </hackathon_builtintests>
+        </models>
+    </global>
+</config>
